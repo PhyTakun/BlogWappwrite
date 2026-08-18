@@ -1,0 +1,29 @@
+@import "tailwindcss";
+
+
+
+
+
+p {
+  margin: 0;
+}
+
+code,
+.counter {
+  font-family: var(--mono);
+  display: inline-flex;
+  border-radius: 4px;
+  color: var(--text-h);
+}
+
+code {
+  font-size: 15px;
+  line-height: 135%;
+  padding: 4px 8px;
+  background: var(--code-bg);
+}
+
+.tox .tox-edit-area::before {
+  border-color: #94a3b8 !important; /* slate-400, matches your Input focus border */
+  box-shadow: none !important;
+}
